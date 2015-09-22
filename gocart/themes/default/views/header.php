@@ -6,7 +6,6 @@
 
 <title><?php echo (!empty($seo_title)) ? $seo_title .' - ' : ''; echo $this->config->item('company_name'); ?></title>
 
-
 <?php if(isset($meta)):?>
 	<?php echo $meta;?>
 <?php else:?>
